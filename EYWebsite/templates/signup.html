@@ -1,0 +1,12 @@
+{% extends 'home.html' %}
+{% block title %}SignUp!{% endblock %}
+{% block content %}
+    <h>SignUp!</h>
+    <div class="container card"style="align-items: center">
+    <form method="POST"action="/accounts/signup/">
+    {% csrf_token %}
+    {{ form.as_p}}
+        <button type="submit"class="btn-info">submit</button>
+    </form>
+    </div>
+{% endblock %}

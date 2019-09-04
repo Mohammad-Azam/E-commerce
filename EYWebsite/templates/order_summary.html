@@ -1,0 +1,54 @@
+{% extends "home.html" %}
+
+{% block content %}
+  <main>
+    <div class="container card">
+
+    <div class="table-responsive text-nowrap">
+    <h2>Order Summary</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item title</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total Item Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tbody>
+        {% for order_item in object.items.all %}
+        <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>{{ order_item.item.title }}</td>
+            <td>{{ order_item.item.price }}</td>
+            <td>
+                {{ order_item.quantity }}
+                <a href="{% url 'add-to-cart' order_item.item.slug %}"><i class="fas fa-plus ml-2">^</i></a>
+                <a style='color: red;' href="{% url 'remove-from-cart' order_item.item.slug %}">
+                    <i class="fas fa-plus ml-2">v</i>
+                </a>
+              </td>
+            <td>
+              ${{ order_item.get_total_item_price }}
+              
+            
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="4"><b> Total Order</b></td>
+            <td><b>=${{object.get_total }}</b></td>
+        </tr>
+        </tfoot>
+    </table>
+
+    </div>
+
+    </div>
+  </main>
+
+{% endblock %}

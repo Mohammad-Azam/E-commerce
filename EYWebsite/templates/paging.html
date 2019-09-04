@@ -1,0 +1,22 @@
+  <!-- pager begining -->
+{% if is_paginated %}
+<nav aria-label="">
+  <ul class="pagination pagination justify-content-center">
+      {% if page_obj.has_previous %}
+        <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+        </li>
+       {% endif %}
+
+    <li class="page-item active"><a class="page-link" href="?page=1">1</a></li>
+    <li class="page-item"><a class="page-link" href="page=2">2</a></li>
+    </li>
+    <li class="page-item"><a class="page-link" href="?page=3">3</a></li>
+  {% if page_obj.has_next %}
+    <li class="page-item">
+      <a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a>
+    </li>
+      {% endif %}
+  </ul>
+</nav>
+      {% endif %}
+<!-- pager ending -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="833fca33-37d0-447c-9db7-ccae4645ea33" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QHJ0l3WPVlHpFVDn8mNzv0ndT1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EYWebsite/static/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite\static\images" />
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite\templates" />
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite" />
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite\account" />
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite\templatetags" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IMAGICA PC\PycharmProjects\dj\EYWebsite\product" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="833fca33-37d0-447c-9db7-ccae4645ea33" name="Default Changelist" comment="" />
+      <created>1567421368479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567421368479</updated>
+      <workItem from="1567421374666" duration="5422000" />
+      <workItem from="1567477909915" duration="8285000" />
+      <workItem from="1567487000216" duration="5637000" />
+      <workItem from="1567502025338" duration="2792000" />
+      <workItem from="1567505034832" duration="2559000" />
+      <workItem from="1567581998265" duration="1498000" />
+      <workItem from="1567586797665" duration="4242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
